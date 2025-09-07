@@ -1,0 +1,41 @@
+{
+  "name": "iMakeIt! - Platforma Sukcesu Online",
+  "short_name": "iMakeIt!",
+  "description": "Zaawansowana platforma do zarządzania projektami, śledzenia nawyków i edukacji online",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e1b4b",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["productivity", "education", "business"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Przejdź do głównego dashboardu",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Projekty",
+      "short_name": "Projekty",
+      "description": "Zarządzaj swoimi projektami",
+      "url": "/projects",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
